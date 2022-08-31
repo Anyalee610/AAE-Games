@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+}
+body{
+    text-align: center;
+    font-family: 'Goudy Old Style','Garamond','Big Caslon','Times New Roman','serif'; 
+}
+#background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://www.agencergpd.eu/wp-content/uploads/2022/02/2102.i126.030_detective_room_interior-01-scaled.jpg') no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    align-items: center;
+    }
+    
+    
+#board{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #AE9090;
+    width:70%;
+    height: 70%;
+    border-radius: 30px;
+    
+}
+#start{
+    font-size: 75px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    background-color: #AE9090;
+    color: #742626;
+    border: 2px #742626; 
+    font-family: 'Nosifer', cursive;
+    
+
+}
+#start:hover {
+    background-color: #742626;
+    color: rgba(239, 197, 162, 0.914);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+#name{
+    font-size:90px;
+    color: rgb(99, 62, 62);
+    font-family: 'Nosifer', cursive;
+}
