@@ -61,7 +61,7 @@ const words4 = () => {
 }
 const words5 = () => {
     changeDialoge(girlwords,'You will solve some puzzels that will give you clues')
-    boywords.innerText ='And help identify who killed him and toke his will that gave Ann the farm'
+    boywords.innerText ='And help identify who killed him and took his will that gave Ann the farm'
     next.addEventListener('click',  words6)
 
 }

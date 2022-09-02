@@ -71,12 +71,13 @@ function checkForMatch2(selected, dropTarget) {
   }
 }
 function playAgain() {
-  matchingCounter = 0;
-  endMessage.style.display = 'none';
-  mains.style.display = "block";
-  draggableListItems.forEach(item => {
-    document.getElementById(item.id).style.display = 'block';
-  })
+  window.location.reload();
+  // matchingCounter = 0;
+  // endMessage.style.display = 'none';
+  // mains.style.display = "block";
+  // draggableListItems.forEach(item => {
+  //   document.getElementById(item.id).style.display = 'block';
+  // })
 }
 function addEventListeners() {
   draggableListItems.forEach (item => {
