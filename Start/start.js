@@ -84,7 +84,7 @@ const words8 =()=>{
     boywords.style.display = 'block';
     boywords.innerText = "Let just play"
     changeDialoge(girlwords,'The next one you drag and drop the english that corilates to the spanish, and the last one you just choose who did it')
-    firstgame.href = 'Ashe.html'
+    firstgame.href = 'Matching.html'
 }
 startButton.addEventListener('click', intro)
 
