@@ -37,7 +37,7 @@ const youLose = () =>{
     firstScreen.style.display = "block";
     dialogue.style.display = "none";
     gameText.style.fontSize = '40px'
-    gameText.innerText = 'You lose, they are not the one who killed grandpa'
+    gameText.innerText = 'You lose'
     startButton.innerText = "play again"
     again.href = 'index.html'
 }
@@ -47,7 +47,7 @@ const youWin = () =>{
     gameText.style.fontSize = '40px'
     startButton.innerText = "play again"
     again.href = 'index.html'
-    gameText.innerText = 'You Won, Chopper didnt like Ann was going to inherit everything'
+    gameText.innerText = 'You Won'
 }
 
 
