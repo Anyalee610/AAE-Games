@@ -2,7 +2,7 @@ const card = document.querySelectorAll('.cell')
 const front = document.querySelectorAll('.front')
 const container = document.querySelector('.container')
 const score = document.querySelector('.score span')
-
+const next = document.getElementById('next')
 
 function startTimer(duration, display) {
     
@@ -24,10 +24,11 @@ function startTimer(duration, display) {
   }
 
 //   function fadeOut(){
-//     // const container = document.getElementById('fade');
-//     // container.style.opacity = '0';
-//     // container.remove()
-//     document.getElementById('fade').removeAttributeNode()
+//     const container = document.getElementById('fade');
+//     container.style.display = none;
+//     next.src = 'next.png'
+
+    
 // }
 
 // function youLost(){
@@ -195,3 +196,4 @@ function match(cardOne , cardTwo){
         }, 1000);
     }
 }
+
