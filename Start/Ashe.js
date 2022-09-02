@@ -24,11 +24,10 @@ function startTimer(duration, display) {
   }
 
 //   function fadeOut(){
-//     const container = document.getElementById('fade');
-//     container.style.display = none;
-//     next.src = 'next.png'
-
-    
+//     // const container = document.getElementById('fade');
+//     // container.style.opacity = '0';
+//     // container.remove()
+//     document.getElementById('fade').removeAttributeNode()
 // }
 
 // function youLost(){
@@ -196,4 +195,3 @@ function match(cardOne , cardTwo){
         }, 1000);
     }
 }
-

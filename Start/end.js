@@ -39,14 +39,14 @@ const youLose = () =>{
     gameText.style.fontSize = '40px'
     gameText.innerText = 'You lose that not who killed grandpa'
     startButton.innerText = "play again"
-    again.href = 'start.html'
+    again.href = 'index.html'
 }
 const youWin = () =>{
     firstScreen.style.display = "block";
     dialogue.style.display = "none";
     gameText.style.fontSize = '40px'
     startButton.innerText = "play again"
-    again.href = 'start.html'
+    again.href = 'index.html'
     gameText.innerText = 'You Won Chopper didnt like Ann was going to inherit everything'
 }
 
