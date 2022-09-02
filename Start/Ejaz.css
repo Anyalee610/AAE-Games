@@ -1,0 +1,81 @@
+.container {
+    max-width: 960px;
+    margin: auto;
+  }
+  body {
+    background-image: url("https://img.freepik.com/free-vector/detective-office-interior-flat-cartoon-composition-with-crime-scene-diagram-board-computer-monitor-criminal-profile-illustration_1284-62252.jpg?w=826&t=st=1661946900~exp=1661947500~hmac=0d6b459d98f1b0b1a2ff3d8c289fe8e2699c0c5a7c10bc442c190feaee01df60");
+    background-size: cover;
+    font-family: sans-serif;
+    color: #DCDCDC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1, h3, p {
+    text-align: center;
+  }
+  #mains{
+    background-color: #AE9090;
+    width:70%;
+    height: 70%;
+    border-radius: 30px;
+  }
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
+  .draggable-list {
+    padding: 5px;
+    font-size: 40px;
+  }
+  li {
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    background-color: #742626;
+    border: 1px solid #B0BEC5;
+    color: #FFFFFF;
+    cursor: grab;
+    border-radius: 12px;
+    text-align: center;
+  }
+  .over {
+    background-color: #516A75;
+  }
+  table {
+    max-width:640px;
+    margin: auto;
+    margin-bottom: 20px;
+    /* border: 1px solid #B0BEC5; */
+  }
+  th, td {
+    padding: 10px 10px;
+  }
+  td {
+    border: 1px solid #000000;
+  }
+  tr:nth-child(even) {
+    background-color: #721B1B;
+  }
+  button {
+    margin: auto;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #721B1B;
+    color: #fff;
+  }
+  button:hover {
+    background-color: #516A75;
+  }
+  #endMessage {
+    display: none;
+  }
+  .black {
+    color: rgb(0, 0, 0);
+  }

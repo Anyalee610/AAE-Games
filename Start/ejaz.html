@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matching Game</title>
+  <link rel="stylesheet" href="Ejaz.css">
+</head>
+<body>
+  <h1 id = "headerOne">Spanish Matching Game</h1>
+  <p id = "headerTwo">Drag the English phrase over to the matching Spanish phrase</p>
+  <p></p>
+  <main id ='mains'class="container">
+    <div>
+      <ul class="draggable-list">
+        <li id="e1" draggable="true">He wore Yellow</li>
+        <li id="e2" draggable="true">He ran towards choppers room</li>
+        <li id="e3" draggable="true">He was short</li>
+        <li id="e4" draggable="true">He spoke spanish</li>
+        <li id="e5" draggable="true">Hey looked like a male</li>
+      </ul>
+    </div>
+    <div>
+      <ul class="draggable-list">
+        <li id="s2" draggable="true">Corrió hacia la habitación de Choppers!</li>
+        <li id="s5" draggable="true">Hey parecía un hombre</li>
+        <li id="s1" draggable="true">Llevaba el amarillo! </li>
+        <li id="s3" draggable="true">Era corto!</li>
+        <li id="s4" draggable="true">Habla español</li>
+      </ul>
+    </div>
+  </main>
+  <div id="endMessage">
+    <h3 class="black">Well done!</h3>
+    <h3 class="black">¡Bien hecho!</h3>
+    <button onclick="playAgain()">Play Again</button>
+  </div>
+  <script src="ejaz.js"></script>
+</body>
+</html>
